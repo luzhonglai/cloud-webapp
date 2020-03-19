@@ -1,0 +1,32 @@
+<view>
+
+
+  <view class="user-info">
+  
+    <view wx:if="{{userInfo.openid}}">
+      <image src="{{userInfo.avatarUrl}}"></image>
+      <view>
+      <!-- <button size="mini" type="primary">推出</button> -->
+      <button bindtap="scanCode" type="warn">添加图书</button>
+      </view>
+    </view>
+    <view wx:if="{{!userInfo.openid}}">
+      <image src="../../images/img/unlogin.png"></image>
+      <view>
+        <button type="primary" size="mini" open-type="getUserInfo"  bindgetuserinfo="onGotUserInfo">登录</button>
+      
+      </view>
+    </view>
+
+    <view>
+    
+    </view>
+    <view>
+
+      <!-- <button type="primary" open-type="contact">客服</button> -->
+    </view>
+  </view>
+
+  <button class='test-btn'>哈喽</button>
+
+</view>

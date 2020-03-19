@@ -1,0 +1,15 @@
+/* miniprogram/pages/me/me.wxss */
+.user-info{
+  text-align: center;
+  padding:100rpx 20rpx;
+}
+.user-info image{
+  border-radius: 50%;
+  width:150rpx;
+  height:150rpx;
+  margin-bottom: 30rpx;
+}
+
+.test-btn{
+  border-bottom: 3px black solid;
+}

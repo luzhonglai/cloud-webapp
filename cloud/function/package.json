@@ -1,0 +1,15 @@
+{
+  "name": "carwler",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "ZhongLai Lu",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^0.19.2",
+    "cheerio": "^1.0.0-rc.3",
+    "doubanbook": "^1.0.1",
+    "request-promise": "^4.2.5",
+    "tcb-router": "^1.1.2",
+    "wx-server-sdk": "^1.8.2"
+  }
+}
