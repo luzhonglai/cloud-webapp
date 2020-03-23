@@ -5,26 +5,25 @@
   ],
   "tabBar":{
     "list":[
-
       {
         "pagePath":"pages/books/books",
         "text":"图书",
         "iconPath":"images/img/book.png",
         "selectedIconPath":"images/img/book-active.png"
       },
-            {
-              "pagePath": "pages/me/me",
-              "text": "我",
-              "iconPath": "images/img/me.png",
-              "selectedIconPath": "images/img/me-active.png"
-            }
+      {
+        "pagePath": "pages/me/me",
+        "text": "我",
+        "iconPath": "images/img/me.png",
+        "selectedIconPath": "images/img/me-active.png"
+      }
     ]
   },
   "window": {
     "backgroundColor": "#F6F6F6",
     "backgroundTextStyle": "light",
     "navigationBarBackgroundColor": "#F6F6F6",
-    "navigationBarTitleText": "开课吧学习",
+    "navigationBarTitleText": "爬虫吧加油",
     "navigationBarTextStyle": "black"
   },
   "sitemapLocation": "sitemap.json"

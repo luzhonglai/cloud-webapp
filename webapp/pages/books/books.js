@@ -1,9 +1,6 @@
 // miniprogram/pages/books/books.js
 const db = wx.cloud.database();
 Page({
-  /**
-   * 页面的初始数据
-   */
   data: {
     userInfo: wx.getStorageSync("userinfo") || {},
     books: [],
@@ -11,7 +8,6 @@ Page({
   },
   getList() {
     let isInit = this.data.page === 0;
-
     wx.showLoading({
       title: "加载中"
     });
