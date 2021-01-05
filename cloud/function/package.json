@@ -5,7 +5,7 @@
   "author": "ZhongLai Lu",
   "license": "MIT",
   "dependencies": {
-    "axios": "^0.19.2",
+    "axios": "^0.21.1",
     "cheerio": "^1.0.0-rc.3",
     "doubanbook": "^1.0.1",
     "request-promise": "^4.2.5",
